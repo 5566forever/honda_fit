@@ -1,0 +1,63 @@
+@mixin layout($w) {
+    @if $w == 100% {
+     width:  100%;
+    }@else {
+       width: $w;
+       margin: 0 auto;
+    }
+}
+
+
+// rect
+
+@mixin rect($w , $h:$w) {
+  width: $w;
+  height:  $h;
+}
+
+@mixin t() {
+    @media screen and (max-width: $rwd-t) {
+          @content;
+    }
+}
+
+@mixin m() {
+    @media screen and (max-width: $rwd-m) {
+          @content;
+    }
+}
+
+
+
+@mixin title() {
+    font-weight: 500;
+    font-family: $f1;
+    letter-spacing: 10px;
+}
+
+@mixin title_eng() {
+    font-size: 48px;
+    font-weight: 400;
+    font-family: $f2;
+    color: $color_blue_1;
+    letter-spacing: 8px;
+}
+
+@mixin text() {
+    font-weight: 400;
+    font-family: $f2;
+    color: $color_blue_1;
+}
+
+%all-h4{
+    font-weight: 300;
+    line-height: 2;
+}
+
+%all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

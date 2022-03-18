@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon-arrow-down" transform="translate(24) rotate(90)">
+    <rect id="Rectangle_298" data-name="Rectangle 298" width="24" height="24" transform="translate(0 0)" fill="none"/>
+    <g id="ic_chevron_right_24px" transform="translate(17 18) rotate(180)">
+      <path id="ic_chevron_right_24px-2" data-name="ic_chevron_right_24px" d="M10.112,6,8.59,7.41,13.535,12,8.59,16.59,10.112,18l6.478-6Z" transform="translate(16.59 18) rotate(180)" fill="#3c7db4"/>
+    </g>
+  </g>
+</svg>

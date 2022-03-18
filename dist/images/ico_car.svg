@@ -1,0 +1,6 @@
+<svg id="ico_car" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="steering_x5F_wheel" transform="translate(2.4 2.4)">
+    <path id="Path_58" data-name="Path 58" d="M9.6,0a9.6,9.6,0,1,0,9.6,9.6A9.6,9.6,0,0,0,9.6,0Zm0,2.4a7.194,7.194,0,0,1,6.76,4.8H2.84A7.194,7.194,0,0,1,9.6,2.4Zm0,8.4a1.2,1.2,0,1,1,1.2-1.2A1.2,1.2,0,0,1,9.6,10.8ZM2.4,9.6c3.279,0,5.935,3.16,5.99,7.078A7.2,7.2,0,0,1,2.4,9.6Zm8.41,7.078C10.865,12.76,13.521,9.6,16.8,9.6A7.2,7.2,0,0,1,10.81,16.678Z" fill="#fff"/>
+  </g>
+  <rect id="Rectangle_20" data-name="Rectangle 20" width="24" height="24" fill="none"/>
+</svg>

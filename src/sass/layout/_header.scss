@@ -8,8 +8,9 @@
 
   .logo {
     display: flex;
-    width: 100%;
+    width: 50%;
     z-index: 4;
+    // border: 1px solid red;
 
     img {
       display: block;
@@ -81,9 +82,7 @@
       }
     }
 }
-.-open {
-  transform: translateX(0%);
-}
+
   .burger {
     display: flex;
     align-items: center;
@@ -239,5 +238,9 @@
         transform 0.13s cubic-bezier(0.215, 0.61, 0.355, 1) 0.25s;
       transform: rotate(90deg);
     }
+  }
+  
+  .-open {
+    transform: translateX(0%);
   }
 }

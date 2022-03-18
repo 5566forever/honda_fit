@@ -5,15 +5,19 @@
   </head>
   <body>
     @@include('./layout/header.html')
-    <section class="full banner">
+       <section class="full banner">
       <div>
         <img src="./images/logo_fit.svg" alt="" />
       </div>
     </section>
 
     <section class="full day">
+      <div class="car" data-aos="fade-left" data-aos-duration="1000">
+        <img src="./images/car_1.png" alt="">
+      </div>
+
       <h2>舒適的生活</h2>
-      <div class="img">
+      <div class="img" data-aos="fade-up" data-aos-duration="2000">
         <img src="./images/day.png" alt="" />
       </div>
       <div class="right_btn">
@@ -133,7 +137,10 @@
     </section>
 
     <section class="full night">
-      <div class="img">
+      <div class="car" data-aos="fade-right" data-aos-duration="1000">
+        <img src="./images/car_2.png" alt="">
+      </div>
+      <div class="img" data-aos="fade-up" data-aos-duration="2000">
         <img src="./images/night.png" alt="" />
       </div>
       <h2>舒適的生活</h2>
@@ -266,9 +273,9 @@
         </ul>
       </div>
 
-      <div class="img">
+      <div class="img" data-aos="fade-left" data-aos-duration="1000">
         <img src="./images/design.png" alt="" />
-        <div class="block">
+        <div class="block" data-aos="fade-up" data-aos-duration="2000">
           <p>以簡約之美 前行</p>
           <h4>
             以實用為內涵，簡約為語彙<br />
@@ -307,16 +314,20 @@
       <div class="content">
         
           <div class="grid_container">
-            <div class="grid_item -item1">
+            <div class="grid_item -item1" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1000">
               <img src="./images/grid_1.png" alt="">
             </div>
-            <div class="grid_item -item1">
+            <div class="grid_item -item1" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
               <img src="./images/grid_2.png" alt="">
             </div>
-            <div class="grid_item">
+            <div class="grid_item" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
               <img src="./images/grid_3.png" alt="">
             </div>
-            <div class="grid_item">
+            <div class="grid_item" data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
               <img src="./images/grid_4.png" alt="">
             </div>
           </div>
@@ -361,38 +372,74 @@
       </div>
 
       <div class="accordion">
-        <div class="qacontainer" id="qacontainer">
-          <div class="qaquestion-container" id="qaquestion-container">
-            <div class="qa-title" id="qa-title">
-              <img src="./images/add.svg" class="open-close" alt="">
-              如何擁有個人的訂製喜帖？
-            </div>
-            <div class="qa-content" style="display: none">
-              <div class="ans1">
-                <div class="step">
-                  <img src="./images/Group 390.svg" alt="">
-                  <span>1. 選擇您喜歡的主題</span>
-                </div>
-                <div class="step">
-                  <img src="./images/Group 391qastep2.svg" alt="">
-                  <span>2. 選擇適合您的模板、字型</span>
-                </div>
-                <div class="step">
-                  <img src="./images/Group 392qastep3.svg" alt="">
-                  <span>3. 上傳您想分享的圖片</span>
-                </div>
-                <div class="step">
-                  <img src="./images/Group 393qastep4.svg" alt="">
-                  <span>4. 製作喜帖表單內容</span>
-                </div>
-                <div class="step">
-                  <img src="./images/Group 394qastep5.svg" alt="">
-                  <span>5. 預覽畫面後產出連結。</span>
-                </div>
-    
+        <div class="accordion-container">
+          <div class="accordion-title">
+            碰撞緩解防止系列
+            <img src="./images/icon-arrow-down.svg" class="open-close" alt="">
+          </div>
+
+          <div class="accordion-content" style="display: none">
+            <div class="series">
+              <div class="intro">
+                <img src="./images/intro.svg" alt="">
+                <h2>CMBS 碰撞緩解煞車系統　FCW 前方碰撞警示系統</h2>
+                <h4>當系統偵測到駕駛車輛與前方車距快速縮減時，會以警示音、方向盤震動與儀表板警告圖示達到提醒作用，並讓駕駛者能夠即時反應，避免碰撞發生。當碰撞風險增加時，系統會預先加壓煞車系統，協助駕駛縮短煞停的距離。 若駕駛未能適時反應，系統將自動啟動煞車，避免事故發生或降低意外造成的傷害。(5~100km/h)</h4>
               </div>
             </div>
           </div>
+          
+        </div>
+        <div class="accordion-container">
+          <div class="accordion-title">
+            車道偏移防止系列
+            <img src="./images/icon-arrow-down.svg" class="open-close" alt="">
+          </div>
+
+          <div class="accordion-content" style="display: none">
+            <div class="series">
+              <div class="intro">
+                <img src="./images/intro.svg" alt="">
+                <h2>CMBS 碰撞緩解煞車系統　FCW 前方碰撞警示系統</h2>
+                <h4>當系統偵測到駕駛車輛與前方車距快速縮減時，會以警示音、方向盤震動與儀表板警告圖示達到提醒作用，並讓駕駛者能夠即時反應，避免碰撞發生。當碰撞風險增加時，系統會預先加壓煞車系統，協助駕駛縮短煞停的距離。 若駕駛未能適時反應，系統將自動啟動煞車，避免事故發生或降低意外造成的傷害。(5~100km/h)</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="accordion-container">
+          <div class="accordion-title">
+            車距維持系列
+            <img src="./images/icon-arrow-down.svg" class="open-close" alt="">
+          </div>
+
+          <div class="accordion-content" style="display: none">
+            <div class="series">
+              <div class="intro">
+                <img src="./images/intro.svg" alt="">
+                <h2>CMBS 碰撞緩解煞車系統　FCW 前方碰撞警示系統</h2>
+                <h4>當系統偵測到駕駛車輛與前方車距快速縮減時，會以警示音、方向盤震動與儀表板警告圖示達到提醒作用，並讓駕駛者能夠即時反應，避免碰撞發生。當碰撞風險增加時，系統會預先加壓煞車系統，協助駕駛縮短煞停的距離。 若駕駛未能適時反應，系統將自動啟動煞車，避免事故發生或降低意外造成的傷害。(5~100km/h)</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="accordion-container">
+          <div class="accordion-title">
+            防護輔助系列
+            <img src="./images/icon-arrow-down.svg" class="open-close" alt="">
+          </div>
+
+          <div class="accordion-content" style="display: none">
+            <div class="series">
+              <div class="intro">
+                <img src="./images/intro.svg" alt="">
+                <h2>CMBS 碰撞緩解煞車系統　FCW 前方碰撞警示系統</h2>
+                <h4>當系統偵測到駕駛車輛與前方車距快速縮減時，會以警示音、方向盤震動與儀表板警告圖示達到提醒作用，並讓駕駛者能夠即時反應，避免碰撞發生。當碰撞風險增加時，系統會預先加壓煞車系統，協助駕駛縮短煞停的距離。 若駕駛未能適時反應，系統將自動啟動煞車，避免事故發生或降低意外造成的傷害。(5~100km/h)</h4>
+              </div>
+            </div>
+          </div>
+
+        </div>
 
       </div>
     </section>
@@ -407,48 +454,53 @@
 
     <section class="test_drive"></section>
     @@include('./layout/footer.html')
-    
-    <script>
-      
-      function click() {
-        qaTitles = document.getElementsByClassName("qa-title");
 
-        for (let i = 0; i < qaTitles.length; i++) {
-          const element = qaTitles[i];
-          element.addEventListener("click", clickTitle);   
-        }
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script>
+     
+      qaTitles = document.getElementsByClassName("accordion-title");
+
+      for (let i = 0; i < qaTitles.length; i++) {
+        const element = qaTitles[i];
+        element.addEventListener("click", clickTitle);
       }
 
       function clickTitle(event) {
         switchStateImage(event);
+
         switchContent(event);
       }
-      
+
       function switchStateImage(event) {
-        const img = event.currentTarget.querySelector(".open-close");
+        const img = event.target.querySelector(".open-close");
         let imgSrc = img.src;
-        
+
         if (imgSrc.indexOf("add") != -1) {
-          img.src = "./images/minus.svg";
+          img.src = "./images/icon-arrow-down.svg";
         } else {
-          img.src = "./images/add.svg";
+          img.src = "./images/icon-arrow-up.svg";
         }
       }
-      
+
       function switchContent(event) {
-        let ttt = event.currentTarget;
-        const qaContent = event.currentTarget.parentElement.querySelector(".qa-content");
+        let ttt = event.target;
+        const qaContent = event.target.parentElement.querySelector(".accordion-content");
+
         if (qaContent.style.display == "") {
           qaContent.style.display = "none";
           ttt.style.backgroundColor = null;
           ttt.style.color = null;
         } else {
           qaContent.style.display = "";
-          ttt.style.backgroundColor = "#932639";
-          ttt.style.color = "white";
+          ttt.style.backgroundColor = "white";
+          ttt.style.color = "#3C7DB4";
         }
       }
+
       
     </script>
   </body>
-</html>
+ 
+  </html>
+  

@@ -503,10 +503,10 @@
     <script>AOS.init();</script>
     <script>
      
-      qaTitles = document.getElementsByClassName("accordion-title");
+      titles = document.getElementsByClassName("accordion-title");
 
-      for (let i = 0; i < qaTitles.length; i++) {
-        const element = qaTitles[i];
+      for (let i = 0; i < titles.length; i++) {
+        const element = titles[i];
         element.addEventListener("click", clickTitle);
       }
 
@@ -520,7 +520,7 @@
         const img = event.target.querySelector(".open-close");
         let imgSrc = img.src;
 
-        if (imgSrc.indexOf("add") != -1) {
+        if (imgSrc.indexOf("icon-arrow-up") != -1) {
           img.src = "./images/icon-arrow-down.svg";
         } else {
           img.src = "./images/icon-arrow-up.svg";
